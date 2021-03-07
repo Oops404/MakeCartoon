@@ -74,7 +74,8 @@ public class Cartoon {
                templateWindowSize 奇数 建议7
                searchWindowSize 奇数 建议21
              */
-            Photo.fastNlMeansDenoisingColored(fnmdcMat, fnmdcMat, 8, 8, 7, 21);
+            Photo.fastNlMeansDenoisingColored(fnmdcMat, fnmdcMat,
+                    8, 8, 7, 21);
             /**
              * 然后我们对fnmdcMat进行画线，就像铅笔画画线一样
              * 这里我们用Canny算法进行边缘检测
